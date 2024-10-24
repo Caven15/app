@@ -35,5 +35,7 @@ def ajouter_tache():
     return jsonify(task_serialized), 201
 
 # Update : Mise à jour d'une tache
+def update(id):
+    return jsonify(f"Id récupéré lors de l'update => {id}"), 200
 
 # Delete : Suppression d'une tâche
