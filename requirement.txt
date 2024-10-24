@@ -1,0 +1,4 @@
+# Pour reproduction du projet
+
+Flask=3.0.3
+pymongo=4.10.1
