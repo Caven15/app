@@ -13,4 +13,7 @@ try:
     print("--------------------")
 except Exception as error :
     # En cas d'erreur de connexion, affiche un message d'erreur
-    print(f"Erreru de connexion à mongoDB : \n {error}")
+    print(f"Erreur de connexion à mongoDB : \n {error}")
+
+# Importer les routes après l'initialisation
+from app.routes import task
